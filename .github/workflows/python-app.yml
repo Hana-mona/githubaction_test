@@ -5,7 +5,10 @@ name: Python CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+      -"main"
+      -feature/update
+    
   pull_request:
     branches: [ "main" ]
 
